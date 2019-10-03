@@ -31,9 +31,10 @@
 
 /**
  * The framerate at which video should be encoded, in frames per second.
- * I'd like to able to adjust this for testing, intergrate either a client/server FPS setting notion.
+ * I'd like to able to adjust this for testing, integrate either a client/server FPS setting notion.
  * Or even adding the notion this changes on-the-fly unbeknown to user.
- * the inital setting was for '25' FPS and I'm wondering depending on upload serving speed if this reach 60FPS
+ * the initial setting was for '25' FPS and I'm wondering depending on upload serving speed if this could reach 60FPS+
+ * while maintaining stability
  */
 #define GUACENC_VIDEO_FRAMERATE 45
 
